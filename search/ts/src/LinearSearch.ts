@@ -1,6 +1,6 @@
-function linear_search(tab:number[],cile:number):number {
+function linear_search(tab:number[],target:number):number {
     for (let i = 0; i < tab.length; i++) {
-       if(tab[i] === cile){
+       if(tab[i] === target){
         console.log(`element trouve est ${tab[i]}`);
         return i;
        }
