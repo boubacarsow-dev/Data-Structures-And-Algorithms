@@ -1,0 +1,24 @@
+{
+  "name": "dsa-sort-ts",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "tsx --test"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0"
+  },
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "esbuild": "^0.27.7",
+    "get-tsconfig": "^4.14.0",
+    "resolve-pkg-maps": "^1.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
